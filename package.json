@@ -1,0 +1,23 @@
+{
+  "name": "social-app",
+  "version": "1.0.0",
+  "description": "a basic social app",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon app.js",
+    "start:prod": "node app.js"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "api"
+  ],
+  "author": "Mohammad Taimoor Hussain",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
