@@ -3,6 +3,10 @@ const express = require('express'),
     PORT = process.env.PORT || 4000,
     date = new Date();
 
+app.get('/', (req, res) => {
+   res.status(200).send('<h1>Welcome to Node Js - Social App</h1>');
+});
+
 app.get('/api/v1/instagram', (req, res) => {
     const instaSocial = {
         username: "Mohammad Taimoor Hussain | Instagram",
