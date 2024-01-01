@@ -1,6 +1,6 @@
 const express = require('express'),
     app = express(),
-    PORT = 4000 || process.env.PORT,
+    PORT = process.env.PORT || 4000,
     date = new Date();
 
 app.get('/api/v1/instagram', (req, res) => {
