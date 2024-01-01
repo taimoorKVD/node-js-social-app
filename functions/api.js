@@ -1,7 +1,7 @@
 const express = require('express'),
-    serverless = require('serverless-http'),
     app = express(),
-    router = express().Router(),
+    router = express.Router(),
+    serverless = require('serverless-http'),
     PORT = process.env.PORT || 4000,
     date = new Date();
 
